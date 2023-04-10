@@ -1,13 +1,14 @@
 {
-  "name": "http-proxy",
-  "version": "1.18.1",
+  "name": "http-proxy-node16",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/http-party/node-http-proxy.git"
+    "url": "https://github.com/Jimbly/http-proxy-node16.git"
   },
-  "description": "HTTP proxying for the masses",
+  "description": "Fork of http-proxy that works on Node v16.x",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
-  "maintainers": [
+  "contributors": [
+    "Jimb Esser (https://github.com/Jimbly/)",
     "jcrugzz <jcrugzz@gmail.com>"
   ],
   "main": "index.js",
