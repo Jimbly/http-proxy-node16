@@ -7,3 +7,8 @@ coverage
 .travis.yml
 CHANGELOG.md
 UPGRADING.md
+CODE_OF_CONDUCT.md
+codecov.yml
+renovate.json
+.auto-changelog
+.gitattributes
