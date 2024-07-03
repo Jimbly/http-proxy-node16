@@ -227,6 +227,15 @@ describe('lib/http-proxy/common.js', function () {
       expect(outgoing.path).to.eql('/forward/?foo=bar//&target=http://foobar.com/?a=1%26b=2&other=2');
     })
 
+    it('target path has query string', function () {
+      var outgoing = {};
+      common.setupOutgoing(outgoing, {
+        target: { path: '/forward?f=1' },
+      }, { url: '/src?s=1' });
+
+      expect(outgoing.path).to.eql('/forward/src?f=1&s=1');
+    })
+
     //
     // This is the proper failing test case for the common.join problem
     //
