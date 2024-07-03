@@ -1,6 +1,6 @@
 {
   "name": "http-proxy-node16",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jimbly/http-proxy-node16.git"

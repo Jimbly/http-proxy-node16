@@ -1,5 +1,9 @@
 # http-proxy-node16
-Fork of [http-proxy](https://github.com/http-party/node-http-proxy) that works on Node v16.x
+Fork of [http-proxy](https://github.com/http-party/node-http-proxy) that works on Node v16.x and later
+
+Bug-fix PRs welcome.
+
+Original documentation follows:
 
 # node-http-proxy
 
